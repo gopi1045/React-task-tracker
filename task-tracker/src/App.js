@@ -51,7 +51,7 @@ const toggleReminder=async(id)=>{
     headers:{
       'Content-type':'application/json'
     },
-    body:JSON.stringify(updatedtask)
+    body:JSON.stringify(updatedtask) 
   })
   
   const data=await res.json()
